@@ -1,6 +1,6 @@
 {
   "name": "zo-secure-random",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unbiased security  random numbers",
   "main": "index.js",
   "scripts": {
