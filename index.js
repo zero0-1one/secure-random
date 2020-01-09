@@ -25,10 +25,8 @@ module.exports = {
 
     let random = () => {
       const buffer = crypto.randomBytes(bytes)
-      if (buffer[0] < 0) throw ''
       let value = buffer[0] & mask
       for (let i = 1; i < bytes; i++) {
-        if (buffer[i] < 0) throw ''
         value = value * 256 + buffer[i] //也不能使用位运算
       }
       return value
