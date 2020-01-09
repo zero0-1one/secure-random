@@ -1,0 +1,30 @@
+{
+  "name": "zo-secure-random",
+  "version": "0.0.1",
+  "description": "Unbiased security  random numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "random",
+    "numbers",
+    "randomBytes",
+    "crypto",
+    "secure"
+  ],
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "zero0-1one",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero0-1one/secure-random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zero0-1one/secure-random/issues"
+  }
+}
